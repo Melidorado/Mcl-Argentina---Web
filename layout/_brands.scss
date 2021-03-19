@@ -1,0 +1,34 @@
+.brands-container {
+    height: 334px;
+    background-color: #f3f7f8;
+    padding: 123px 190px 124px 191px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .brand-img-container{
+        width: auto;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        img {
+            height: 100%;
+        }
+        .xurban {
+            height: 70%;
+        }
+        @media (max-width: $layout-breakpoint-max-largedevice) {
+            height: 30px;
+        }
+        @media (max-width: $layout-breakpoint-max-smalldevice) {
+            height: 20px;
+        }
+    }
+    @media (max-width: $layout-breakpoint-max-largedevice) {
+        padding: 50px;
+        height: 200px;
+    }
+    @media (max-width: $layout-breakpoint-max-smalldevice) {
+        height: 150px;
+    }
+}

@@ -1,0 +1,18 @@
+header {
+    height: 100vh;
+    background-image: url(Imagen-SR900-Full-Color-7-2-1024x512.jpg);
+    background-position: center;
+    background-size: cover;
+    @media (max-width: $layout-breakpoint-max-largedevice) {
+        height: 512px;
+    }
+    @media (max-width: $layout-breakpoint-max-mediumdevice) {
+        height: 430px;
+    }
+    @media (max-width: $layout-breakpoint-max-smalldevice) {
+        height: 330px;
+    }
+    @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
+        
+    }
+}
