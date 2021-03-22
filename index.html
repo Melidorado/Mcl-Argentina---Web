@@ -4,31 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Mcl Argentina</title>
   </head>
   <body>
-    <nav>
+    <nav id="principal-navbar">
       <div class="logo-container">
         <img src="./logo.png" />
       </div>
-      <ul>
+      <ul id="items-navbar" class="">
         <li>
-            <a href="#HOME">HOME</a>
+            <a class="item" href="#HOME">HOME</a>
           </li>
         <li>
-          <a href="#NOSOTROS">NOSOTROS</a>
+          <a class="item" href="#NOSOTROS">NOSOTROS</a>
         </li>
         <li>
-          <a href="#PRODUCTOS">PRODUCTOS</a>
+          <a class="item" href="#PRODUCTOS">PRODUCTOS</a>
         </li>
         <li>
-          <a href="#CONTACTO">CONTACTO</a>
+          <a class="item" href="#CONTACTO">CONTACTO</a>
         </li>
       </ul>
-      <div class="burguer hidden">
-        <i id="hamburguesa" class="fas fa-bars"></i>
+      <div class="burguer">
+        <i id="burguer" class="fas fa-bars"></i>
       </div>
     </nav>
 
@@ -141,5 +141,7 @@
         <a href="mailto:info@mclargentina.com.ar">info@mclargentina.com.ar</a>
       </div>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

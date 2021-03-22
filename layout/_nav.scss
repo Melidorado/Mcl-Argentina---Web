@@ -13,12 +13,19 @@ nav {
         margin-left: 70px;
         img {
             width: 80%;
+            @media (max-width: $layout-breakpoint-max-largedevice) {
+                width: 90%;
+            }
+        }
+        @media (max-width: $layout-breakpoint-max-mediumdevice) {
+            width: 25%;
+            margin-left: 50px;
         }
     }
     ul {
         display: flex;
         list-style: none;
-        margin-right: 300px;
+        margin-right: 200px;
         li {
             font-size: 13px;
             margin-left: 20px;
@@ -28,11 +35,41 @@ nav {
                 &:visited {
                     color: black;
                 }
-
+                &:hover {
+                    @media (max-width: 850px) {
+                        color: green;
+                    }
+                }
+            }
+            @media (max-width: 850px) {
+                padding: 10px;
+                margin-left: 40px;
             }
         }
         @media (max-width: $layout-breakpoint-max-largedevice) {
             margin-right: 50px;
+        }
+        @media (max-width: 850px) {
+            background-color: white;
+            width: 100vw;
+            padding: 0;
+            height: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            top: 33px;
+            position: absolute;
+            transition: .3s ease-out;
+            overflow: hidden;
+        }
+    }
+    .burguer {
+        display: none;
+        @media (max-width: 850px) {
+            display: block;
+            font-size: 20px;
+            padding: 10px 0;
         }
     }
     @media (max-width: $layout-breakpoint-max-largedevice) {
@@ -40,11 +77,28 @@ nav {
     }
     @media (max-width: $layout-breakpoint-max-mediumdevice) {
         height: 60px;
+        transition: .3s;
     }
-    @media (max-width: $layout-breakpoint-max-smalldevice) {
+    @media (max-width: 850px) {
         height: 50px;
     }
-    @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
-        
-    }
 }
+
+.cambio-desplegable {
+    background-color:white;
+}
+
+.show {
+    height: 180px !important;
+}
+
+#burguer {
+    font-size: 22px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
