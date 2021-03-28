@@ -40,6 +40,11 @@ nav .logo-container img {
     margin-left: 50px;
   }
 }
+@media (max-width: 576px) {
+  nav .logo-container {
+    width: 40%;
+  }
+}
 nav ul {
   display: flex;
   list-style: none;
@@ -96,6 +101,11 @@ nav .burguer {
     display: block;
     font-size: 20px;
     padding: 10px 0;
+  }
+}
+@media (max-width: 576px) {
+  nav .burguer #burguer {
+    font-size: 18px;
   }
 }
 @media (max-width: 1200px) {
@@ -168,12 +178,12 @@ header {
 @media (max-width: 768px) {
   .about-us-container .description-container h2 {
     margin-top: 0;
+    font-size: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 450px) {
   .about-us-container .description-container h2 {
-    margin-top: 0;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 .about-us-container .description-container p {
@@ -324,7 +334,7 @@ header {
 }
 @media (max-width: 576px) {
   .about-us-container {
-    padding: 30px;
+    padding: 5px 30px;
   }
 }
 
@@ -342,6 +352,11 @@ header {
   .products-container h2 {
     margin-top: 0;
     font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .products-container h2 {
+    font-size: 15px;
   }
 }
 .products-container .products {
@@ -468,6 +483,11 @@ header {
     height: 15px;
   }
 }
+@media (max-width: 450px) {
+  .brands-container .brand-img-container {
+    height: 10px;
+  }
+}
 @media (max-width: 1200px) {
   .brands-container {
     padding: 50px;
@@ -496,6 +516,11 @@ header {
   .contact-container h2 {
     margin-top: 0;
     font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .contact-container h2 {
+    font-size: 15px;
   }
 }
 .contact-container .info-cards-container {
@@ -556,6 +581,11 @@ header {
     font-size: 20px;
   }
 }
+@media (max-width: 450px) {
+  .contact-container .info-cards-container .info-container .info h3 {
+    font-size: 15px;
+  }
+}
 .contact-container .info-cards-container .info-container .info p {
   font-size: 28px;
   margin: 0;
@@ -570,12 +600,22 @@ header {
     font-size: 18px;
   }
 }
+@media (max-width: 450px) {
+  .contact-container .info-cards-container .info-container .info p {
+    font-size: 14px;
+  }
+}
 @media (max-width: 992px) {
   .contact-container .info-cards-container .info-container .info {
     margin-left: 50px;
   }
 }
 @media (max-width: 576px) {
+  .contact-container .info-cards-container .info-container .info {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 450px) {
   .contact-container .info-cards-container .info-container .info {
     margin-left: 20px;
   }
@@ -623,6 +663,11 @@ header {
     width: auto;
   }
 }
+@media (max-width: 576px) {
+  .contact-container .info-cards-container {
+    margin-top: 0px;
+  }
+}
 @media (max-width: 1200px) {
   .contact-container {
     padding: 50px;
@@ -656,6 +701,16 @@ footer p {
     font-size: 10px;
   }
 }
+@media (max-width: 576px) {
+  footer p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 450px) {
+  footer p {
+    font-size: 6px;
+  }
+}
 footer .footer-image-container {
   width: 25%;
 }
@@ -678,6 +733,16 @@ footer .links-contact a:visited {
 @media (max-width: 992px) {
   footer .links-contact a {
     font-size: 10px;
+  }
+}
+@media (max-width: 576px) {
+  footer .links-contact a {
+    font-size: 8px;
+  }
+}
+@media (max-width: 450px) {
+  footer .links-contact a {
+    font-size: 6px;
   }
 }
 @media (max-width: 1200px) {

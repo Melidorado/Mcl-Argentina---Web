@@ -9,6 +9,9 @@
             margin-top: 0;
             font-size: 20px;
         }
+        @media (max-width: 450px) {
+            font-size: 15px;
+        }
     }
     .info-cards-container {
         display: flex;
@@ -54,6 +57,9 @@
                     @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
                         font-size: 20px;
                     }
+                    @media (max-width: 450px) {
+                        font-size: 15px;
+                    }
                 }
                 p {
                     font-size: 28px;
@@ -64,11 +70,17 @@
                     @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
                         font-size: 18px;
                     }
+                    @media (max-width: 450px) {
+                        font-size: 14px;
+                    }
                 }
                 @media (max-width: $layout-breakpoint-max-mediumdevice) {
                     margin-left: 50px;
                 }
                 @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
+                    margin-left: 20px;
+                }
+                @media (max-width: 450px) {
                     margin-left: 20px;
                 }
             }
@@ -108,6 +120,9 @@
             flex-direction: column;
             align-items: center;
             width: auto;
+        }
+        @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
+            margin-top: 0px;
         }
         
         

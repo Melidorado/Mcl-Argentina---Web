@@ -11,6 +11,12 @@ footer {
         @media (max-width: $layout-breakpoint-max-mediumdevice) {
             font-size: 10px;
         }
+        @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
+            font-size: 8px;
+        }
+        @media (max-width: 450px) {
+            font-size: 6px;
+        }
     }
     .footer-image-container {
         width: 25%;
@@ -31,6 +37,12 @@ footer {
             }
             @media (max-width: $layout-breakpoint-max-mediumdevice) {
                 font-size: 10px;
+            }
+            @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
+                font-size: 8px;
+            }
+            @media (max-width: 450px) {
+                font-size: 6px;
             }
         }
     }

@@ -26,6 +26,9 @@
         @media (max-width: $layout-breakpoint-max-extrasmalldevice) {
             height: 15px;
         }
+        @media (max-width: 450px) {
+            height: 10px;
+        }
     }
     @media (max-width: $layout-breakpoint-max-largedevice) {
         padding: 50px;
