@@ -4,8 +4,6 @@ const menuDesplegable = document.getElementById("items-navbar")
 
 const secciones = document.getElementsByClassName("item")
 
-console.log(botonDesplegable)
-
 botonDesplegable.onclick = () => {
 
     menuDesplegable.classList.toggle(`show`)
